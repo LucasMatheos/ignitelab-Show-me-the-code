@@ -2,12 +2,13 @@
 module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
-    backgroundImage:{
-      blur: 'url(/src/assets/blur-background.png)'
+    backgroundImage: {
+      React: "url(/src/assets/React-icon.png)",
+      blur: "url(/src/assets/blur-background.png)",
     },
     extend: {
-      fontFamily:{
-        sans: 'Roboto, sans-serif',
+      fontFamily: {
+        sans: "Roboto, sans-serif",
       },
       colors: {
         green: {
