@@ -3,7 +3,6 @@ module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
     backgroundImage: {
-      React: "url(/src/assets/React-icon.png)",
       blur: "url(/src/assets/blur-background.png)",
     },
     extend: {
