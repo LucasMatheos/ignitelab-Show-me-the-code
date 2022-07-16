@@ -24,8 +24,12 @@ export function Event() {
           <Video lessonSlug={slug} />
         ) : (
           <div className="flex-1">
-            <div className="bg-black flex justify-center h-screen">
-              <img src={ShowMeTheCode} alt="Show Me The Code Image" />
+            <div className="bg-black flex flex-col justify-center h-screen items-center justify-center">
+              <img
+                src={ShowMeTheCode}
+                alt="Show Me The Code Image"
+                className="max-w-[90vw] max-h-[60vh]"
+              />
             </div>
           </div>
         )}
