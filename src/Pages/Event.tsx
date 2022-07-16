@@ -3,9 +3,18 @@ import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 import { Video } from "../components/Video";
 import ShowMeTheCode from "../assets/smtc.jpg";
+import { useEffect, useState } from "react";
 
 export function Event() {
   const { slug } = useParams<{ slug: string }>();
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth <= 1025) {
+      setIsMobile(true);
+    }
+  }, []);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -20,7 +29,8 @@ export function Event() {
             </div>
           </div>
         )}
-        <Sidebar />
+
+        {!isMobile && <Sidebar />}
       </main>
     </div>
   );
