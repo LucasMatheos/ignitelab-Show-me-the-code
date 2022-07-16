@@ -24,7 +24,7 @@ O objetivo proposto para esse evento é construir uma plataforma que disponibili
 
 O projeto do Frontend foi criado utilizando [React](https://pt-br.reactjs.org) com [TypeScript](https://www.typescriptlang.org) a partir do [Vite](http://vitejs.dev) e faz uso de varias bibliotecas listadas a seguir:
 
-1. [Tailwindcss ********](https://tailwindcss.com)- CSS declarativo com premissa de Mobile First (Responsividade).
+1. [Tailwindcss](https://tailwindcss.com)- CSS declarativo com premissa de Mobile First (Responsividade).
 2. [Headlessui](https://headlessui.dev) - Acessibilidade.
 3. [GraphCMS](https://hygraph.com/pricing) - Gerenciador de conteudos GraphQL
 4. [Phosphor Icons](https://phosphoricons.com) - Icones com integração direta com React.
