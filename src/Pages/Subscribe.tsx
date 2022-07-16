@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import ReactIcon from "../assets/React-Icon.png";
 import { useCreateSubscriberMutation } from "../graphql/generated";
-import EventImg from './src/assets/code-img.png'
+import EventImg from '/src/assets/code-img.png'
 
 export function Subscribe() {
   const navigate = useNavigate();
