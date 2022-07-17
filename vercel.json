@@ -1,5 +1,3 @@
 {
-  "rewrites":  [
-    {"source": "/event.tsx", "destination": "/event"}
-  ]
+  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
 }
