@@ -1,5 +1,5 @@
 {
   "rewrites":  [
-    {"source": "/event", "destination": "/event"}
+    {"source": "/event.tsx", "destination": "/event"}
   ]
 }
